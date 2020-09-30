@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "Int Web Dev SEO Society",
-    "currentPage": "Home.nicepage.ioReseller-Hosting..html",
+    "currentPage": "home.nicepage.ioReseller-Hosting..html",
     "theme": {
       "name": "mobirise4",
       "title": "Mobirise 4",
@@ -46,7 +46,7 @@
       }
     ],
     "versionFirst": "4.7.6",
-    "uniqCompNum": 133,
+    "uniqCompNum": 137,
     "versionPublish": "4.11.6",
     "screenshot": "screenshot.png",
     "favicon": false,
@@ -69,7 +69,7 @@
     "gdpr": false
   },
   "pages": {
-    "Home.nicepage.ioReseller-Hosting..html": {
+    "home.nicepage.ioReseller-Hosting..html": {
       "settings": {
         "main": true,
         "title": "Home",
@@ -597,6 +597,40 @@
           "_styles": {
             "padding-top": "(@paddingTop * 15px)",
             "padding-bottom": "(@paddingBottom * 15px)",
+            "background-color": "@bgColor",
+            ".line": {
+              "background-color": "@lineColor",
+              "color": "@lineColor",
+              "align": "center",
+              "height": "2px",
+              "margin": "0 auto"
+            },
+            ".section-text": {
+              "padding": "2rem 0"
+            },
+            ".inner-container": {
+              "margin": "0 auto"
+            },
+            "@media (max-width: 768px)": {
+              ".inner-container": {
+                "width": "100% !important"
+              }
+            }
+          },
+          "_name": "content10",
+          "_customHTML": "<section class=\"mbr-section article content10\" group=\"Article\">\n    \n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"2\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"2\">\n        <input type=\"range\" inline title=\"Text Width\" name=\"innerWidth\" min=\"50\" max=\"100\" step=\"1\" value=\"66\">\n        <input type=\"range\" inline title=\"Line Width\" name=\"lineLength\" min=\"10\" max=\"100\" step=\"1\" value=\"25\">\n        <input type=\"color\" title=\"Line Color\" name=\"lineColor\" value=\"#ffffff\">\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ff3366\">\n    <!-- End block parameters -->\n    </mbr-parameters> \n\n    <div class=\"container\">\n        <div class=\"inner-container\" mbr-style=\"{'width': innerWidth + '%'}\">\n            <hr class=\"line\" mbr-style=\"{'width': lineLength + '%'}\">\n            <div class=\"section-text align-center mbr-white mbr-fonts-style\" mbr-theme-style=\"display-5\" data-app-selector=\".section-text\" mbr-text>What kind of backup recovery strategy should a company have for its dedicated server? Web hosting companies have been debating this architecture since their existence began. It is really a question pondered by the whole IT community. There are many right solutions, dependent on your company's ability to handle downtime. The correct solution for you will factor in the amount of redundant protection you need against the overall cost.\n<div>\n</div><div>Before we discuss the different options for backing up and recovering your dedicated server, we should mention that the server hardware, data center, and fiber connection are all critical to reliability. This article is specifically focused on strategies to backup and recover your server's data.\n</div><div>\n</div><div>At a minimum, you can create a partition in your hard drive and backup your server weekly or monthly. There is no cost to this kind of solution, but the downsides are obvious. If your hard drive crashes, you will lose your backup as well. This kind of solution is only recommended if you can afford to lose all of your data, which most web hosting companies cannot.\n</div><div>\n</div><div>Next, you can contract a remote backup service to set up offsite backups. These backups can be run daily, weekly, or monthly. The cost of this solution is around $30-$50/month depending on the web hosting provider. This option gives you a solid backup in case your hard drive crashes. The downside is that recovery time will take 6-12 hours or more depending on how much data you have. The data has to be manually copied over, and this is a slow process. If you can afford the cost, this solution is part of an overall backup system, but it is not recommended as your only solution.\n</div><div>\n</div><div>The next backup option is to have a second hard drive installed on your server and have it set up to do daily, weekly, or monthly backups. Most web hosting companies that provide dedicated servers will charge between $15-$30 for a second hard drive. This is a nice compliment to the previous solution if you have the budget for both. The recovery time is faster then a remote backup. But unlike a remote backup, if your dedicated server or the datacenter are down, then you cannot access the backup. For most small web hosting companies this is not a problem. If their entire server or datacenter are down, they have larger issues to worry about. We recommend this as a complimentary option with a remote backup.\n</div><div>\n</div><div>Next, a web hosting company can use mirrored RAID drives. This option will cost $50-$80/month more, but it provides the fastest possible recovery in case of a hard drive crash. You can just reboot using the mirrored drive, and you are back in business. The cost is a little higher, but this is a nice luxury. The downside of this option is that if your server is unavailable, then you still cannot reach your data. Additionally, if the hard drive becomes corrupted it will also corrupt your backup. This is why we recommend mirrored drives as part of a larger solution that includes other backup systems.\n</div><div>\n</div><div>Finally, there are mirrored servers. This entails the largest cost and is really not necessary, except for those web hosting companies that can tolerate no downtime at all. In this scenario, if the server itself dies you can have another server ready to take the load. In fact, if your company is large enough, you might already need this kind of solution for performance. Some websites require multiple servers to handle the performance, and it is load balanced across them. In this case, if a server dies the system still runs. This is the best solution but it is not always necessary. And, of course it is costly.\n</div><div>\n</div><div>We recommend a weekly remote backup to provide you with a fail safe version. Even if the datacenter burns down, you will have a copy of your data. To this we would add either mirrored RAID drives or a second hard drive, depending on your hosting company's needs. If you are more worried about recovery time from hard drive crashes, which is the most frequent hardware problem with dedicated servers, then go with the RAID drives. If you are more worried about the hard drive getting corrupted, go with the second hard drive.\n</div><div>\n</div><div>We hope this article provides you with the information you need to adequately back up your dedicated server!</div></div>\n            <hr class=\"line\" mbr-style=\"{'width': lineLength + '%'}\">\n        </div>\n    </div>\n</section>",
+          "_cid": "sc6vnTqtFG",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {},
+          "_anchor": "content10-3p"
+        },
+        {
+          "alias": false,
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
             "& when (@bg-type = 'color')": {
               "background-color": "@bg-value"
             },
@@ -838,6 +872,40 @@
           "_global": false,
           "_once": false,
           "_params": {}
+        },
+        {
+          "alias": false,
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "background-color": "@bgColor",
+            ".line": {
+              "background-color": "@lineColor",
+              "color": "@lineColor",
+              "align": "center",
+              "height": "2px",
+              "margin": "0 auto"
+            },
+            ".section-text": {
+              "padding": "2rem 0"
+            },
+            ".inner-container": {
+              "margin": "0 auto"
+            },
+            "@media (max-width: 768px)": {
+              ".inner-container": {
+                "width": "100% !important"
+              }
+            }
+          },
+          "_name": "content10",
+          "_customHTML": "<section class=\"mbr-section article content10\" group=\"Article\">\n    \n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"2\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"2\">\n        <input type=\"range\" inline title=\"Text Width\" name=\"innerWidth\" min=\"50\" max=\"100\" step=\"1\" value=\"66\">\n        <input type=\"range\" inline title=\"Line Width\" name=\"lineLength\" min=\"10\" max=\"100\" step=\"1\" value=\"25\">\n        <input type=\"color\" title=\"Line Color\" name=\"lineColor\" value=\"#ffffff\">\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ff3366\">\n    <!-- End block parameters -->\n    </mbr-parameters> \n\n    <div class=\"container\">\n        <div class=\"inner-container\" mbr-style=\"{'width': innerWidth + '%'}\">\n            <hr class=\"line\" mbr-style=\"{'width': lineLength + '%'}\">\n            <div class=\"section-text align-center mbr-white mbr-fonts-style\" mbr-theme-style=\"display-5\" data-app-selector=\".section-text\" mbr-text>Web Sites, Domain Names, And Name Servers (What's DNS All About?)...\n<div>I explain Domain Name Servers and Name Servers to a friend of mine all the time. He builds web sites part time. I know he's not alone; DNS confuses a lot of people.\n</div><div>\n</div><div>The internet works by assigning an address to each device attached to it. This address is called an Internet Protocol Address or IP Address for short. It's a 32 bit number that's commonly written as 4 segments or octets (called an octet because each 4th is 8 bits) such as 10.10.1.1 or 216.54.217.22. Each octet can range between 0 and 255. This address works just like your street address: a packet (a chunk of communication between two devices) leaving your computer and heading for Google moves through devices call routers that route traffic on the internet. The router looks at the destination IP Address and knows which way to send the packet. Just like a letter moves through various post offices and delivery vehicles (mail man, mail trucks, airplanes, etc.) your little packet of internet traffic moves across various communication channels (phone lines, cable lines, fiber, etc.) and providers (UUNet, Cogent, Level3, Time-Warner, AT&amp;T, Sprint, AboveNet, etc.). It finally arrives at its destination and is processed and a return packet is sent back... in just the same way, it finds its way back based on your IP Address.\n</div><div>\n</div><div>The Internet would be pretty hard to use if you had to remember all those IP Addresses when you wanted to visit a web page, so a naming scheme is used that allows you to enter a name that is easy to remember instead of a sequence of numbers. So, how does your computer get the IP Address of a web site when you type in the name? That's where Domain Name Servers do their job.\n</div><div>\n</div><div>Name Servers. A Name Server holds the information that relates the IP Addresses for a web site to the names used to access that web site. If you want to have a web site with a domain name, you have to register or purchase (more like rent) the domain name from a service call a registrar. When I registered the domain name for my web site, I told the registrar what Name Server I was using, Most people will use the Name Servers provided by their hosting facility (where they rent the server space for their web site). That Name Server is configured to have a \"zone\" for my domain and that zone contains records that relate a name to an IP address, this is called an \"A Record\". An \"MX Record\" is used to identify the mail server for that zone, for example, I have an \"A Record\" for my domain that points to the IP address of the web server, and the \"MX Record\" points to the mail server for my domain. These may or may not be on the same server. When someone sends me email, their mail server will request the Name Server for my domain and will get it's IP Address, then it can request the MX Record and get it's IP Address, and then it can send packets of mail to the mail server for my domain.\n</div><div>\n</div><div>Domain Name Servers. A Domain Name Server stores the domain names and associated IP Addresses for a period of time.\n</div><div>\n</div><div>This is stored or cached on a server called a Domain Name Server, or DNS server for short. If the time specified for caching a domain name / IP Address relationship has passed the DNS server will remove it from its cache. When a request for an IP Address is made, and the DNS server does not have that address in its cache, the DNS Server will make a request to a set of special servers on the internet that hold the addresses for all the Name Servers and which domain names each one controls. It can then send a request to the name server for that domain to get the IP Address for the domain name and return it to the computer or device making the original request. All Internet Providers have several DNS servers and as you browse the internet your computer is constantly sending requests to these DNS servers to get (or resolve) IP Addresses for the domain names you type in or links you click on.\n</div><div>\n</div><div>A web site's name to address relationships are stored on Name Servers, as you browse the Internet, DNS servers either provide the address back to your computer from cache, or, look up the Name Server for your domain and then gets the correct Name Server to get the IP Address.\n</div><div>\n</div><div>Now you too understand DNS and Name Servers!</div></div>\n            <hr class=\"line\" mbr-style=\"{'width': lineLength + '%'}\">\n        </div>\n    </div>\n</section>",
+          "_cid": "sc6wD7b4g1",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {},
+          "_anchor": "content10-3q"
         },
         {
           "alias": false,
@@ -1228,6 +1296,40 @@
         {
           "alias": false,
           "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "background-color": "@bgColor",
+            ".line": {
+              "background-color": "@lineColor",
+              "color": "@lineColor",
+              "align": "center",
+              "height": "2px",
+              "margin": "0 auto"
+            },
+            ".section-text": {
+              "padding": "2rem 0"
+            },
+            ".inner-container": {
+              "margin": "0 auto"
+            },
+            "@media (max-width: 768px)": {
+              ".inner-container": {
+                "width": "100% !important"
+              }
+            }
+          },
+          "_name": "content10",
+          "_customHTML": "<section class=\"mbr-section article content10\" group=\"Article\">\n    \n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"2\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"2\">\n        <input type=\"range\" inline title=\"Text Width\" name=\"innerWidth\" min=\"50\" max=\"100\" step=\"1\" value=\"66\">\n        <input type=\"range\" inline title=\"Line Width\" name=\"lineLength\" min=\"10\" max=\"100\" step=\"1\" value=\"25\">\n        <input type=\"color\" title=\"Line Color\" name=\"lineColor\" value=\"#ffffff\">\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ff3366\">\n    <!-- End block parameters -->\n    </mbr-parameters> \n\n    <div class=\"container\">\n        <div class=\"inner-container\" mbr-style=\"{'width': innerWidth + '%'}\">\n            <hr class=\"line\" mbr-style=\"{'width': lineLength + '%'}\">\n            <div class=\"section-text align-center mbr-white mbr-fonts-style\" mbr-theme-style=\"display-5\" data-app-selector=\".section-text\" mbr-text>Blog Software For All Your Blogging Needs, Dominate The Market!\n<div>Today anyone who has writing ability or is dreaming to be a writer has written a blog in the net. There are blog soft wares that are simple and easy to use and a technically inclined and challenged individuals can easily acquire a blog online.\n</div><div>\n</div><div>For some individuals, blogs are their projects of every day living, as they talk about their daily episodes as well as make tribute to friends and family. Furthermore, blogs assume a profound meaning written to compose and assemble political statements, endorse a product, supply information on research, and even offer tutorials. Any subject that are of your interests, you can be sure that someone has written a blog about it.\n</div><div>\n</div><div>Blogs are now being written by musicians, politicians, sports figures, novelists, newscasters as well as other known figures. It is this blog fever that has raised controversy. The fact that anyone can compose and regarding any subject matter under the sun, complaints about certain write-ups are an issue. In a lot of blogs, names are being mentioned; do bear in mind that although you are entitled to write anything that interests you in a blog, you have to be very careful and take in a lot of responsibility. Do not make any statements which can become controversial; or else, be very prepared.\n</div><div>\n</div><div>Why a Blog?\n</div><div>\n</div><div>1.For personal acquaintances, relationships and hobby. A person can write a blog about his daily activities, what's going on with his life as his way of telling his family and friends the things that goes on in his life. Likewise, one may also write a blog just so he can express what he feels about himself, or about a certain subject matter that is of interest to him.\n</div><div>\n</div><div>2.Topical. Some blogs are committed to a precise topic, like computer hardware or politics. These are frequently read like magazines.\n</div><div>\n</div><div>3.For marketing. Corporations are too, into blogging; when well written and implemented, this kind of blog can be a powerful instrument for business communications, forming eagerness and anticipation regarding their products and services offered, or used as tool within the company, keeping employees well informed about company issues and news.\n</div><div>\n</div><div>Why someone else's software?\n</div><div>\n</div><div>A lot of Web designer and creators will laugh at the belief and idea of utilizing the software of someone else. This is can be correct especially when each software greatly differs from the particular requirements that a client may have. Yet on the other hand, when it refers to a Weblog software, there is no reason for apprehension in the use of a package that is pre-written, as most packages were developed through years of study; not just knocked together over a couple of days.\n</div><div>\n</div><div>In addition, one may study its feature set. For a developer, it would take a lot of time and effort to write and compose from \"nothing at all\" every single feature in the Weblog software packages of today. For most people, a blog is there for the main reason that chooses to publish or make known your literature and texts on the Web, so you want to spend your time more on writing than coding.\n</div><div>\n</div><div>Hosted Services\n</div><div>\n</div><div>If one wishes to start broadcasting on the Web, yet does not have web hosting, one can consider looking into a hosted service, which includes Blogger, TypePad, Live Journal, and more.\n</div><div>\n</div><div>These services are operated or handled for an individual, so there is no need to concern one about technical upkeep of one's Weblog; instead, one can concentrate on his blog's appearance and content. In just minutes, after signing for an account, one can readily start his own blog. Many such services are offered free, such as blogger. TypePad charges a minimal amount for monthly service fee.\n</div><div>\n</div><div>Self-Hosted\n</div><div>\n</div><div>When one has Web hosting on hand, or is eager to buy hosting, in which one feesl that the advantage will prevail over the problems of keeping up your own blog connection and installation, then you may want to take into account a package that is self-hosted, which includes Movable Type, Textpattern and WordPress.\n</div><div>\n</div><div>Other hosting companies did construct the process of installation easier, permitting installation with just a click from a control panel that is browser-based. It is important that you check with a hosting company so you can view if this function is offered. Similar to hosted services, some self hosted packages are made available either for free or for a certain fee which is dependent on the type of package that you choose as well as the basis why you are using it.</div></div>\n            <hr class=\"line\" mbr-style=\"{'width': lineLength + '%'}\">\n        </div>\n    </div>\n</section>",
+          "_cid": "sc6x8q90Pz",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {},
+          "_anchor": "content10-3r"
+        },
+        {
+          "alias": false,
+          "_styles": {
             "& when not (@fullScreen)": {
               "padding-top": "(@paddingTop * 15px)",
               "padding-bottom": "(@paddingBottom * 15px)"
@@ -1607,6 +1709,40 @@
           "_global": false,
           "_once": false,
           "_params": {}
+        },
+        {
+          "alias": false,
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "background-color": "@bgColor",
+            ".line": {
+              "background-color": "@lineColor",
+              "color": "@lineColor",
+              "align": "center",
+              "height": "2px",
+              "margin": "0 auto"
+            },
+            ".section-text": {
+              "padding": "2rem 0"
+            },
+            ".inner-container": {
+              "margin": "0 auto"
+            },
+            "@media (max-width: 768px)": {
+              ".inner-container": {
+                "width": "100% !important"
+              }
+            }
+          },
+          "_name": "content10",
+          "_customHTML": "<section class=\"mbr-section article content10\" group=\"Article\">\n    \n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"2\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"2\">\n        <input type=\"range\" inline title=\"Text Width\" name=\"innerWidth\" min=\"50\" max=\"100\" step=\"1\" value=\"66\">\n        <input type=\"range\" inline title=\"Line Width\" name=\"lineLength\" min=\"10\" max=\"100\" step=\"1\" value=\"25\">\n        <input type=\"color\" title=\"Line Color\" name=\"lineColor\" value=\"#ffffff\">\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ff3366\">\n    <!-- End block parameters -->\n    </mbr-parameters> \n\n    <div class=\"container\">\n        <div class=\"inner-container\" mbr-style=\"{'width': innerWidth + '%'}\">\n            <hr class=\"line\" mbr-style=\"{'width': lineLength + '%'}\">\n            <div class=\"section-text align-center mbr-white mbr-fonts-style\" mbr-theme-style=\"display-5\" data-app-selector=\".section-text\" mbr-text>How To Get A Site Online And Have It Making Money\n<div>When building and getting a site online you have to think of a number of things. Some of these include the following:\n</div><div>\n</div><div>1.What is your site going to be about\n</div><div>\n</div><div>If you want to get a site online to make money then you need to do some good research before you choose what your site is going to be about. This is because there is no point in you choosing a topic for your site where other people have no interest in. If no one has any interest in the topic of your site then you will find it very had to get a good amount of visitors to your site. So the best thing to do is to choose a topic that is likely to interest a large number of people and is also likely to make you some good revenue online.\n</div><div>\n</div><div>2.What web hosting provider are you going to choose to host your site with\n</div><div>\n</div><div>Choosing the right Web hosting provider is very important when choosing it to host your site. This is because there is no point in choosing a Web hosting provider that is likely to be unreliable just because it is cheap or just because you don't know enough about it. The article at: http://www.simplysearch4it.com/article/a00033/854.html gives you a better idea on how to choose a good Web hosting provider to host your site with.\n</div><div>\n</div><div>3.How can you add more content to your site\n</div><div>\n</div><div>Once you have your site up and running, you will then need to think of ways of making your site bigger and also updating your sites content on a regular basis so that your visitors don't get bored of your site and so that they will have a reason to keep visiting your site on a regular basis. Some ways of adding content to your site could include the following:\n</div><div>\n</div><div>You could add some free reprint able articles to your site that is on the same topic as your site. You can find well over 800 reprint able articles at: http://www.simplysearch4it.com/article/articledir.php\n</div><div>\n</div><div>You could add some free to play games on your site so it becomes stickier. You can find a load at: http://www.miniclip.com\n</div><div>\n</div><div>You could add a forum to your site so people can keep informed of current events and updates on your site and also chat amongst each other. You can find some good forum scripts at: http://www.hotscripts.com where some of these are free with the GPL.\n</div><div>\n</div><div>4.How are you going to earn from your site\n</div><div>\n</div><div>Once you have built your site and have found a good web host to host your site with, you will then need to think about how you are going to earn from your site.\n</div><div>\n</div><div>If you are selling your own products or offering your own services, you may also want to add a few affiliate programs to your site so that you can produce a little extra income from these programs as well as earning the money from selling your own products or offering your own services. You can find well over 800 affiliate programs at: http://www.affiliateseeking.com. These include pay per click programs, pay per lead programs, two-tiered programs, pay per impression programs, residual income programs and more.\n</div><div>\n</div><div>5.How are you going to promote your site to get visitors\n</div><div>\n</div><div>Now that you have your site up and running with maybe a few affiliate programs included within your sites content, you will now need to promote your site so that you can start getting noticed on the Web. The article at: http://www.simplysearch4it.com/article/a00000/197.html gives you some of the best ways of getting visitors to your site.\n</div><div>\n</div><div>Once you have done the above five things, you should now have your own site online. The amount of visitors that your site will receive and the amount of money you will make from your site will all depend on the amount of work and effort you put into your site. The more work you do with your site, the more money you are likely to make.</div></div>\n            <hr class=\"line\" mbr-style=\"{'width': lineLength + '%'}\">\n        </div>\n    </div>\n</section>",
+          "_cid": "sc6xEJuoRI",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {},
+          "_anchor": "content10-3s"
         },
         {
           "alias": false,
